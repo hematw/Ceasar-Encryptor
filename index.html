@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+            <div class="container">
+                <h2>Ceasar Cipher Encrypter</h2>
+                <p>Type your Message and Key to encrypt</p>
+            </div>
+
+            <div class="container" style="background-color:white">
+                <input type="text" placeholder="Message" id="input-msg" required>
+                <input type="number" placeholder="Your Key" id="input-key" required>
+            </div>
+
+            <div class="container">
+                <textarea placeholder="Encrypted data" id="enc-data" readonly></textarea>
+            </div>
+
+            <div class="container">
+                <input type="button" value="Encrypt" id="btn">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
